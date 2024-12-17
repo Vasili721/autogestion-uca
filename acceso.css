@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: Poppins, Helvetica, "sans-serif";
+    color: #3F4254;
+    user-select: none;
+  }
+
+.Foto {
+    background-image: url(illustration.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+.Logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 10vw;
+    height: auto;
+}
+
+.©{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(185, 182, 182);
+    font-weight: bold;
+}
+
+.General {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+a{
+    padding: 30px 80px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d3b6f;
+    border: 1px solid #EBEDF3;
+    border-radius: 0.675rem;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #E4E6EF;
+    border-color: #E4E6EF;
+}
+
+p{
+    font-size: small;
+    margin-top: 10vh;
+}
+
+button{
+    border: 1px solid #EBEDF3;
+    border-radius: 0.675rem;
+    color: white;
+    padding: 8px;
+    background-color: #1d3b6f;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #152b52;
+}
+
+.fa-envelopes-bulk{
+    font-size:30px;
+    color: #1d3b6f;
+    margin:15px;
+}
+
+.fa-phone{
+    font-size:15px;
+    margin: 7px;
+}

@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Estilo del header */
+.custom-header {
+    background-color: #f7f7f7; /* Color gris claro */
+    display: flex;
+    align-items: flex-start; /* Elementos alineados en la parte superior */
+    justify-content: space-between;
+    padding: 20px 35vh;
+    border-bottom: 1px solid #ccc; /* Línea divisoria */
+}
+
+    /* Contenedor de la izquierda */
+.header-left .logo {
+    width: 25vh; /* Tamaño del logo */
+    height: auto;
+}
+
+    /* Contenedor de la derecha */
+.header-right {
+    display: flex;
+    flex-direction: column; /* Colocar elementos en columnas */
+    justify-content: flex-start;
+}
+
+    /* Fila superior */
+.header-right .top-row {
+    display: flex;
+    align-items: center; /* Alinear los elementos de la fila superior */
+    gap: 35px; /* Espaciado entre el enlace y el texto */
+}
+
+.header-right a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-right .right-text {
+    color: #333; /* Texto a la derecha */
+}
+
+    /* Fila inferior */
+.header-right .bottom-row {
+    margin-top: 15px;
+    color: #666; /* Color gris para el texto adicional */
+    font-size: 14px; /* Tamaño más pequeño para el texto adicional */
+}
+
+.right-text{
+    font-size: small;
+    color: #979696;
+}
+
+.fa-user{
+    margin-right: 5px;
+}
+
+.propuesta{
+    color: black;
+}
+
+nav{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc; /* Línea divisoria */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.selector{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.selector > li > a{ /*header principal*/
+    display: block;
+    padding: 12px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: small;
+}
+
+.selector a{
+    text-decoration: none;
+}
+
+.selector a:hover{
+    color: #969696;
+    cursor: pointer;
+}
+
+.selector-vertical{ /*header vertical*/
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: #f7f7f7;
+    font-size: small;
+}
+
+.selector li:hover .selector-vertical{
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.selector-vertical li:hover{
+    color: #969696;
+    cursor: pointer;
+}
+
+.selector-vertical li a{
+    display: block;
+    color: black;
+    padding: 7px
+}
+
+.contenedor-central{
+    padding: 20px 35vh;
+}
+
+.contenedor-central h1{
+    color: #08c;
+    font-size: 25px;
+}
+
+.contenedor-central hr{
+    border: none; /* Elimina el borde predeterminado */
+    height: 1px; /* Grosor de la línea */
+    background-color: rgba(0, 0, 0, 0.103);
+    margin-top: 3px;
+}
+
+.contenedor-central p{
+    font-size: small;
+    margin: 15px 0;
+    line-height: 1.5;
+    color: #414040;
+}
+
+.contenedor-central h2{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid black;
+}
+
+.mensajes{
+    display: flex;
+    justify-content: center;
+    background-color: #f7f1be73;
+    border-radius: 5px;
+    border: 1px solid #bd944e5b;
+    margin: 10px;
+}
+
+.selector-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor2 p{
+    font-size: small;
+    padding: 10px;
+    color: #bd944e;
+}
+
+.comenzar{
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-radius: 4px;
+    padding-right: 15vh;
+}
+
+.comenzar h1{
+    color: black;
+    margin: 3px 10px;
+    font-size: large;
+}
+
+.comenzar h5{
+    color: black;
+    margin: 3px 10px;
+    font-size: small;
+    font-weight: normal;
+}
+
+.comenzar p{
+    color: black;
+    font-size: 11px;
+    margin: 0;
+}
+
+.comenzar h6{
+    margin: 8px 10px;
+    font-size: small;
+    color: gray;
+}
+
+.comenzar hr{
+    margin: 3px 10px;
+}
+
+.contenedor-central > .titulo-gris{
+    margin-top: 15px;
+    color: gray;
+}
+
+.promedio{
+    display: flex;
+    justify-content: center;
+    background-color: #d9edf7;
+    border-radius: 5px;
+    border: 1px solid #bce8f1;
+    margin: 10px;
+}
+
+.promedio p{
+    font-weight: bold;
+}
+
+.promedio span{
+    margin: 8px;
+    background-color: #3a87ad;
+    padding: 4px;
+    color: white;
+    border-radius: 20%;
+}
+
+.table-container {
+    margin: 20px auto; /* Centra la tabla horizontalmente */
+    width: 90%; /* Ajusta el ancho de la tabla */
+}
+  
+table {
+    width: 100%; /* La tabla ocupa todo el ancho del contenedor */
+    border-collapse: collapse; /* Elimina los espacios entre las celdas */
+    text-align: center; /* Centra el contenido en las celdas */
+}
+  
+thead tr {
+    background-color: white; /* Fondo blanco para la primera fila */
+}
+  
+tbody tr {
+    background-color: #f7f7f7; /* Fondo gris claro para la segunda fila */
+}
+  
+th, td {
+    padding: 10px; /* Espaciado dentro de las celdas */
+    border: 1px solid #ccc; /* Borde entre celdas */
+    font-size: small;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan span{
+    font-weight: bold;
+}
+
+.modulo header{
+    background-color: #2673bf;
+}
+
+.modulo header > p{
+    color: #fff;
+    padding: 8px;
+    font-size: small;
+}
+
+.modulo th, td{
+    font-size: 12px;
+}
+
+.modulo thead tr{
+    background-color: #f7f7f7;
+}
+
+.modulo tbody tr{
+    background-color: white;
+}
+
+.extra{
+    margin-top: 20px;
+}
+
+.optativa{
+    margin: 20px;
+}
+
+.optativa header{
+    background-color: #1a4d80;
+}
+
+.optativa h1{
+    color: gray;
+    font-size: large;
+    margin-left: 2rem;
+}
+
+.contenedor-historial {
+    display: flex; /* Activa flexbox */
+    flex-direction: column; /* Ordena los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente los elementos */
+    width: 100%; /* Ajusta el ancho */
+    text-align: center; /* Centra el texto dentro de los elementos */
+  }
+
+  .historial {
+    margin-top: 20px;
+    display: flex; /* Activa flexbox */
+    flex-direction: column; /* Ordena los enlaces en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    gap: 10px; /* Espacio entre los elementos */
+    background-color: #f7f1be73;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bd944e5b;
+  }
+
+  .historial h1 {
+    color: #bd944e;
+    font-size: medium;
+  }
+
+  .historial a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #000; /* Cambia el color del texto del enlace */
+    font-size: small; /* Tamaño de letra */
+    transition: color 0.3s ease; /* Agrega una animación al pasar el mouse */
+  }
+
+  .historial a:hover {
+    color: #007BFF; /* Cambia el color al pasar el mouse */
+    cursor: pointer;
+  }
+
+.contenedor-historial2{
+    margin-top: 20px;
+}
+
+.contenedor-historial2 h2{
+    font-weight: bold;
+    font-size: large;
+    background-color: #3a87ad;
+    color: white;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contenedor-historial2 p{
+    margin-left: 15px;
+}
+
+.contenedor-historial2 span{
+    font-weight: bold
+}
