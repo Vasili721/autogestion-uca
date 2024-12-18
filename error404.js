@@ -37,8 +37,8 @@ iconContainer.appendChild(icon);
 // Cambiar el mensaje si aparece la pelota de fútbol
 const messageElement = document.querySelector("p");
 if (randomLogo === "fa-regular fa-futbol") {
-    messageElement.textContent = "Go and play outside!";
+    messageElement.textContent = "La página que estás buscando esta jugando un partido, pruebe de nuevo más tarde";
 }
 if (randomLogo === "fa-solid fa-battery-empty") {
-    messageElement.textContent = "The Page you are looking for its out of battery, sorry.";
+    messageElement.textContent = "La página que estás buscando se quedo sin batería, pruebe de nuevo más tarde.";
 }
