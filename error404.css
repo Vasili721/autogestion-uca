@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo opcional */
+    color: #333; /* Color de texto opcional */
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.fa-regular{
+    font-size: 20vh;
+}
+
+.fa-solid{
+    font-size: 20vh;
+}
+
+#icon-container {
+    margin-bottom: 1rem;
+}
+
+.fa-heart-crack{
+    color: rgb(87, 1, 1);
+}
+
+.fa-radiation{
+    color: #5da72c;
+}
