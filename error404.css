@@ -9,6 +9,7 @@ body {
     background-color: #f8f9fa; /* Color de fondo opcional */
     color: #333; /* Color de texto opcional */
     text-align: center;
+    user-select: none;
 }
 
 h1 {
