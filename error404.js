@@ -1,26 +1,6 @@
 // Lista de clases para las caras tristes
 const Logos = [
-    "fa-regular fa-face-frown",
-    "fa-regular fa-face-frown-open",
-    "fa-regular fa-face-sad-cry",
-    "fa-regular fa-face-sad-tear",
-    "fa-regular fa-futbol",
-    "fa-solid fa-face-dizzy",
-    "fa-solid fa-face-meh",
-    "fa-solid fa-battery-empty",
-    "fa-solid fa-book-skull",
-    "fa-solid fa-circle-xmark",
     "fa-solid fa-gear",
-    "fa-solid fa-head-side-virus",
-    "fa-solid fa-heart-crack",
-    "fa-solid fa-link-slash",
-    "fa-solid fa-plug-circle-xmark",
-    "fa-solid fa-radiation",
-    "fa-solid fa-screwdriver-wrench",
-    "fa-solid fa-skull",
-    "fa-solid fa-skull-crossbones",
-    "fa-solid fa-toilet-paper-slash",
-    "fa-solid fa-toolbox"
 ];
 
 // Seleccionar un ícono al azar
